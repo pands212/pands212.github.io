@@ -1,0 +1,21 @@
+@font-face{
+  font-family: myFirstFont;
+  src: url(VioletSans-Regular.ttf);
+}
+html {
+  background:#a6b6ff;
+}
+h1{
+  font-family: myFirstFont;
+  color:#ff7300;
+  font-size: 180px;
+  margin-left:40px;
+  margin-top:50px;
+}
+
+p{
+  font-family: myFirstFont;
+  color:#ff7300;
+  font-size:20px;
+  margin-left:40px;
+}
