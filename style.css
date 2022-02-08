@@ -5,10 +5,11 @@
 html {
   background:#a6b6ff;
 }
+
 h1{
   font-family: myFirstFont;
   color:#ff7300;
-  font-size: 90px;
+  font-size: 100px;
   margin-left:40px;
   margin-top:50px;
 }
@@ -19,3 +20,18 @@ p{
   font-size:20px;
   margin-left:40px;
 }
+
+.container{
+  width:600px;
+  }
+
+  .a{
+    text-decoration:none;
+    outline:none;
+  }
+  .a:link{
+    color:#ff7300;
+  }
+  .a:hover{
+    color:#ff7300;
+  }

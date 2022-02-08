@@ -1,0 +1,76 @@
+html{
+    background-color: #FE1A95;
+    font-family: arial, sans-serif;
+    font-size: 30px;
+}
+h1{
+    width:800px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.container{
+    position:relative;
+    width:1400px;
+    height:800px;
+}
+.paragraph{
+    width:380px;
+    background-color: #eb91c1;
+    font-size: 22px;
+    margin-top:100px;
+    padding:25px;
+    position:absolute;  
+    left:450px; 
+}
+.paris{
+    position:absolute;
+    left:840px;
+}
+.heart{
+    position:absolute;
+    left:80px;
+}
+.purple{
+    position:absolute;
+    right:60px; 
+}
+.lita{
+    position:absolute;
+    bottom:100px;
+    left:280px;
+    transform: rotate(-25deg);
+}
+.balenciaga{
+    position:absolute;
+    left:90px;
+    top:180px;
+}
+.whitelouis{
+    position:absolute;
+    top:300px;
+    transform: rotate(18deg);
+    left:600px;
+}
+.quote{
+    position:absolute;
+    left:400px;
+    top:350px;
+}
+.louisv{
+    position:absolute;
+    top:90px;
+    left:1000px;
+    transform: rotate(35deg);
+}
+.cherry{
+    position:absolute;
+}
+.rachel{
+    position:absolute;
+    top:400px;
+    right:700px;
+    transform:rotate(-35deg);
+}
+
+
