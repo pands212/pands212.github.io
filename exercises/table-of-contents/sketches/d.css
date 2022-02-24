@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    font-family: 'Space Mono', monospace;
+    color:white;
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight:lighter;
+}
+.heading{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin:40px;
+    align-items: center;
+    line-break:normal;
+
+}
+
+.chapter{
+   font-size:50px;
+
+}
+hr{
+    width:500px;
+    
+}

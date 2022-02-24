@@ -1,0 +1,24 @@
+body{
+    color:black;
+    font-family: 'Space Mono', monospace;
+    font-size:30px;
+}
+
+h1{
+font-style:italic;
+text-align: center;
+}
+
+.title{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    justify-content: space-between;
+}
+.italic{
+    font-style:italic;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+}

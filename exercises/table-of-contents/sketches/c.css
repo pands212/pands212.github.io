@@ -1,0 +1,55 @@
+
+body {
+    font-family: 'Space Mono', monospace;
+    color:black;
+    font-weight:bold;
+    font-size: 30px;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+  
+  h1 {
+    font-size: 60px;
+    margin: 0;
+  }
+  
+  .entries {
+    margin-bottom: 60px;
+    width:40vw;
+  }
+  
+  .heading {
+    margin-bottom: 60px;
+  }
+  
+  .chapter {
+    font-size:40px
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .page {
+    margin-top: 10px;
+  }
+  
+  
+  span {
+    display: block;
+  }
+
+  .end{
+      width:40vw;
+      font-size:30px;
+  }
+
+  .numbers{
+      font-size:20px;
+  }
