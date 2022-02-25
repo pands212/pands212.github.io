@@ -10,21 +10,33 @@ body{
     text-align: center;
 }
 
+.wrapper{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
 .container{
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
     margin:40px;
     align-items: center;
-    line-break:normal;
 
 }
 
+.item{
+    width:500px;
+    justify-content: center;
+}
 .chapter{
    font-size:50px;
+   width:500px;
+   display: flex;
+   justify-content: center;
 
 }
-hr{
-    width:500px;
-    
+.end{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
 }
