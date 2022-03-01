@@ -1,0 +1,58 @@
+body{
+    /* background-color:#ff3399; */
+    /* background-col#cc99ff9ff; */
+    /* background-color:#ccccff; */
+    background-color: #330066;
+    /* background-color:#0000ff; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@keyframes blobspin {
+    
+  0% {
+    transform: rotate(0.5turn);
+  }
+  50% {
+    transform: rotate(0.8turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes blobmove {
+
+    100%{
+       transform: translateX(100%)
+   } 
+ 
+}
+@keyframes colorswap{
+    0%{
+        fill:#006837;
+    }
+    50%{
+        fill:#ffcc00;
+    }
+    100%{
+        fill:#33ccff;
+    }
+}
+
+#blob path{
+    animation: colorswap 4s linear infinite;
+}
+
+
+#blob {
+    height:700px;
+    animation: blobspin 4s linear infinite, blobmove 4s ease-in-out infinite;
+
+}
+
+
