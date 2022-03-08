@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'CabinetGrotesk-Regular';
+    src: url('../assets/fonts/CabinetGrotesk-Regular.woff2') format('woff2'),
+         url('../assets/fonts/CabinetGrotesk-Regular.woff') format('woff'),
+         url('../assets/fonts/CabinetGrotesk-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+ 
+body{
+    background-color: rgba(183, 163, 120, 1);
+    color:rgba(70, 60, 58, 1);
+    font-family: 'CabinetGrotesk-Regular';
+    font-style:normal;
+    margin:0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+
+.author{
+    font-size: 40px;
+    grid-row:1/6;
+    grid-column:6/6;
+    color:white;
+}
+.title{
+    font-size:15vw;
+    grid-row:3/8;
+    grid-column:1/6;
+    line-height: 1;
+}
+.welcome{
+    font-size:40px;
+    grid-row:7;
+    grid-column:6;
+    color:white;
+    text-decoration:none;
+    position:relative;
+    z-index:1;
+}
+.box1{
+    box-sizing:border-box;
+    width:100%;
+    background:hsl(60, 100%, 100%);
+    grid-row:1/10;
+    grid-column:1/3;
+    margin:0;
+    border-radius:30% 24% 70% 15%;
+    mix-blend-mode:exclusion;
+    animation: box1fade 5s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes box1fade {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+.box2{
+    box-sizing:border-box;
+    width:100%;
+    background:#332402;
+    grid-row:5/9;
+    grid-column:2/5;
+    margin:0;
+    border-radius:50% 12% 90% 5%;
+    mix-blend-mode:exclusion;
+    animation: box2fade ease-in infinite 7s alternate-reverse;
+}
+@keyframes box2fade {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .box3{
+    box-sizing:border-box;
+    width:100%;
+    background:#ffffff;
+    grid-row:2/7;
+    grid-column:3/7;
+    margin:0;
+    border-radius:90% 12% 40% 14%;
+    mix-blend-mode:exclusion;
+    animation: box3fade ease-in-out infinite 5s alternate-reverse;
+
+}
+@keyframes box3fade {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .title{
+      font-size:100px;
+      grid-row:2/5;
+      grid-column:1/4;
+    }
+    .author{
+      font-size:26px;
+    }
+    .welcome{
+      font-size: 26px;
+    grid-row: 6;
+    text-align: right;
+    }
+    .box1{
+      grid-row: 1/4;
+      grid-column: 1/5;
+    }
+    .box2{
+      grid-row: 3/5;
+      grid-column: 2/6;
+    }
+    .box3{
+      grid-row: 2/7;
+      grid-column: 4/7;
+    }
+  }
+      
+  
