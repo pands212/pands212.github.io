@@ -133,7 +133,7 @@ p.p2{
     border-radius: 30% 50%;
     mix-blend-mode: exclusion;
     transform: rotate(20);
-    animation: box5fade 5s alternate-reverse infinite 3s;
+    animation: box5fade 5s alternate-reverse infinite;
 }
 .box6{
     box-sizing: border-box;
@@ -146,7 +146,7 @@ p.p2{
     transform: rotate(-35deg);
     border-radius: 20% 50% 60% 100%;
     mix-blend-mode: exclusion;
-    animation: box6fade 5s alternate-reverse infinite 3s;
+    animation: box6fade 5s alternate-reverse infinite;
 }
 
 @keyframes box1move{
@@ -192,4 +192,48 @@ p.p2{
       opacity: 0;
     }
   }
-
+  @media screen and (max-width: 768px){
+    p.p1 {
+      font-size: 40px;
+      grid-row:2/3;
+      grid-column:1/7;
+    }
+    p.p2{
+      font-size:20px;
+      grid-row:3/5;
+    }
+    .box3{
+      grid-row:3/5;
+    }
+    .box4{
+      grid-row:3/5;
+      grid-column:1/4;
+    }
+    .box5{
+      grid-row:4/6;
+      grid-column:1/5;
+    }
+    .box6{
+      grid-row:4/6;
+      
+    }
+    .previous{
+      font-size:26px;
+      grid-row:5;
+    }
+    .next{
+      font-size:26px;
+      grid-row:5;
+    }
+    .home{
+      font-size:26px;
+    }
+    .title{
+      font-size:26px;
+    }
+    .author{
+      font-size:26px;
+    }
+  }
+     
+     

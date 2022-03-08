@@ -204,3 +204,41 @@ span.light1{
       opacity: 0.5;
     }
 }
+@media screen and (max-width: 768px){
+    p.p1 {
+      font-size: 20px;
+      grid-column:2/6;
+      grid-row:2/4;
+    }
+    p.p2{
+      font-size:20px;
+      grid-row:4/6;
+    }
+    p.p3{
+        font-size:20px;
+        grid-row:6/8;
+      }
+    .previous{
+      font-size:26px;
+    }
+    .next{
+      font-size:26px;
+    }
+    .home{
+      font-size:26px;
+    }
+    .title{
+      font-size:26px;
+    }
+    .author{
+      font-size:26px;
+    }
+    .box3{
+        grid-column:1/7;
+        height:300px;
+    }
+    .box4{
+        grid-column:3/7;
+        height:300px;
+    }
+}
