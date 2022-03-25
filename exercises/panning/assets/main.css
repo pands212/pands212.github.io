@@ -1,0 +1,58 @@
+html{
+    font-family: 'EB Garamond', serif;
+}
+
+body{
+    font-family:'EB Garamond', serif;
+    font-size: 32px;
+    line-height:1.5;
+    background-color: black;
+    color:white;
+    height:100vh;
+    overflow: hidden;
+    width:100vw;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: row;
+}
+
+section.panner{
+    overflow:hidden;
+    width:100vw;
+    height:100vh;
+}
+
+section.panner div.world {
+    position:absolute;
+    top:0;
+    left:0;
+
+    display: grid;
+    grid-template-columns:600px 600px 600px 600px;
+    grid-gap: 48px;
+    padding:48px;
+}
+
+@media(max-width:600px) {
+    body{
+        font-size:24px;
+    }
+}
+
+section{
+    grid-gap:32px;
+}
+
+section img{
+    width: 100%;
+}
