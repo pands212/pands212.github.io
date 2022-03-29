@@ -1,0 +1,58 @@
+body {
+    font-family: 'Karla', sans-serif;
+    color: #903;;
+    font-weight:bold;
+    font-size: 30px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .homepageimg{
+      width:1000px;
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+  }
+
+  .intro{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin:15px;
+    grid-gap:500px;
+  }
+
+  .imagegrid{
+    display:flex;
+    flex-direction: row;
+    margin-top:40px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  img{
+      display:block;
+      width:500px;
+  }
+
+
+  video{
+    width:75vw;
+    margin-left: auto; 
+    margin-right: auto;
+    display:block;
+    justify-content: center;
+}
+.sc3{
+    width:1000px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
