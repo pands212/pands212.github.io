@@ -1,0 +1,83 @@
+body {
+    background-color:  #bd6e36;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .fastfood {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .fries {
+    opacity: .5;
+    color: #5F1B7A;
+    font-size: 36px;
+    font-family: arial;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
+  
+  .fries1 {
+      background-color: rgb(15, 3, 122);
+  }
+  
+  .fries2 {
+    background-color: rgb(148, 154, 156);
+  }
+  
+  .fries3 {
+    background-color: rgb(196, 41, 196);
+  }
+  
+  .fries4 {
+    background-color: yellow;
+  }
+  
+  .fries5 {
+    background-color: blue;
+  }
+  
+  .fries6 {
+    background-color: orange;
+  }
+
+  .fries7 {
+    background-color: rgb(255, 0, 183);
+  }
+
+  .fries8 {
+    background-color: rgb(0, 255, 242);
+  }
+
+  .fries9 {
+    background-color: rgb(119, 255, 0);
+  }
+
+  .fries10 {
+    background-color: rgb(225, 193, 133);
+  }
+
+  .fries11 {
+    background-color: rgb(72, 51, 255);
+  }
+
+  .fries12 {
+    background-color: rgb(98, 0, 0);
+  }
+
+  .fries13 {
+    background-color: rgb(255, 0, 0);
+  }
+
+  .fries14 {
+    background-color: rgb(180, 230, 248);
+  }
+
+  .fries15 {
+    background-color: rgb(191, 0, 255);
+  }
