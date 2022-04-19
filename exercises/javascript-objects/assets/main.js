@@ -1,18 +1,18 @@
 
 let fries = [
-    {name: "Mcdonald's", amount: 900},
-    {name: "Poppeyes", amount: 100},
-    {name: "Arby's", amount: 1000},
     {name: "In-N-Out", amount: 50},
-    {name: "Taco Bell", amount: 700},
-    {name: "Hardee's & Carl's Jr", amount: 80},
-    {name: "White Castle", amount: 300},
-    {name: "Whataburger", amount: 600},
-    {name: "Chik-fil-A", amount: 800},
-    {name: "KFC", amount: 400},
     {name: "Dairy Queen Grill & Chill", amount: 80},
+    {name: "Hardee's & Carl's Jr", amount: 80},
+    {name: "Poppeyes", amount: 100},
     {name: "Burger King", amount: 200},
-    {name: "A&W", amount: 500}
+    {name: "White Castle", amount: 300},
+    {name: "KFC", amount: 400},
+    {name: "A&W", amount: 500},
+    {name: "Whataburger", amount: 600},
+    {name: "Taco Bell", amount: 700},
+    {name: "Chik-fil-A", amount: 800},
+    {name: "Mcdonald's", amount: 900},
+    {name: "Arby's", amount: 1000}
     ];
   
     // One: Use the amount to indicate how big each circle is
