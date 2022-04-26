@@ -1,0 +1,102 @@
+html{
+    font-family: arial;
+}
+
+body{
+    background-image: linear-gradient(#F06A57, #C05FD0);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    padding: 20px;
+    font-weight: normal;
+    font-size: 64px;
+    margin:0;
+    position:fixed;
+    color:#A2FA9A;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.shoes-container{
+    box-sizing:border-box;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    background-color:rgb(114, 0, 221);
+    border: 2px solid black;  
+
+}
+
+.shoes-image{
+    height:500px;
+    width: 500px;
+    object-fit: contain;
+}
+
+
+.filter {
+    display:flex;
+    flex-direction: row;
+    margin: 20px 0;
+    font-family: arial;
+    font-size: 32px;
+    /* left: 1258px;
+    top: 1015px;  */
+    position: fixed;
+    bottom:0px;
+  }
+  
+  .filter span {
+  background-color: #A2FA9A;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 80px;
+  }
+  
+
+  .filter span:hover {
+    cursor: pointer;
+    color: #A2FA9A;
+    background-color: purple;
+  }
+
+.ninetiesbutton.active{
+  color: #A2FA9A;
+  background-color: purple;
+}
+
+  .container-description{
+    width: 600px;
+    height: 200px;
+    background: red;
+    border-radius: 150px;
+    display:none;
+    
+  }
+
+  p{
+    color:black;
+    font-size: 24px;
+    
+  }
+
+  .shoes-description{
+    display: none;
+  }
+
+  .blur {
+    -webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+    filter: blur(5px);
+  }
+  
+
+
+

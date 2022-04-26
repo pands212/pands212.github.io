@@ -1,9 +1,0 @@
-img {
-    width: 500px;
-}
-
-.decades{
-    display:flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
