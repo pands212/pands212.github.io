@@ -52,6 +52,7 @@ h1{
     top: 1015px;  */
     position: fixed;
     bottom:0px;
+    
   }
   
   .filter span {
@@ -59,6 +60,10 @@ h1{
   padding: 5px 10px;
   border: 2px solid black;
   border-radius: 80px;
+  }
+
+  a{
+    text-decoration: none;
   }
   
 
@@ -87,10 +92,10 @@ h1{
     font-size: 24px;
     
   }
-
+/* 
   .shoes-description{
     display: none;
-  }
+  } */
 
   .blur {
     -webkit-filter: blur(5px); /* Chrome, Safari, Opera */

@@ -1,37 +1,77 @@
 @font-face{
   font-family: myFirstFont;
-  src: url(VioletSans-Regular.ttf);
+  src: url(HOLISE_TRIAL-Thin.otf);
 }
 html {
-  background:#a6b6ff;
+  background-image: url(original_b114db068614a896a5347690af364c02.gif);
+  background-color: rgb(234, 247, 239);
 }
 
 h1{
   font-family: myFirstFont;
-  color:#ff7300;
-  font-size: 100px;
+  color:white;
+  font-size: 37vh;
   margin-left:40px;
-  margin-top:50px;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 p{
   font-family: myFirstFont;
-  color:#ff7300;
-  font-size:20px;
-  margin-left:40px;
+  color:white;
+  font-size:35px;
+  margin-top:10px;
+  margin-bottom:10px;
+  /* border-bottom: 2px solid  rgb(85, 242, 64); */
+
+}
+
+a{
+  text-decoration: none;
+  font-family: myFirstFont;
+  color:white;
+  font-size:50px;
+  margin-top:10px;
+  margin-bottom:10px;
+
+  /* border-bottom: 2px solid  rgb(85, 242, 64); */
+}
+
+a:hover{
+  color: rgb(85, 242, 64);
+}
+
+a:active{
+  color: rgb(85, 242, 64);
 }
 
 .container{
-  width:600px;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px; 
+  gap:100px;
+}
 
-  .a{
-    text-decoration:none;
-    outline:none;
-  }
-  .a:link{
-    color:#ff7300;
-  }
-  .a:hover{
-    color:#ff7300;
-  }
+.title1{
+  border-bottom: 2px solid  rgb(85, 242, 64);
+  font-size: 70px;
+}
+
+.title2{
+  border-bottom: 2px solid  rgb(85, 242, 64);
+  font-size: 70px;
+}
+.title3{
+  border-bottom: 2px solid  rgb(85, 242, 64);
+  font-size: 70px;
+}
+
+.classmates{
+
+  margin-top: 50px;
+  
+}
+
+.intro{
+  border: 2px solid  rgb(85, 242, 64);
+}
