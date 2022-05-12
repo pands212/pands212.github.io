@@ -1,0 +1,146 @@
+html{
+    font-family: arial;
+}
+
+body{
+    background-image: linear-gradient(#F06A57, #C05FD0);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    padding: 20px;
+    font-weight: normal;
+    font-size: 64px;
+    margin:0;
+    position:fixed;
+    color:#A2FA9A;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.shoes-container{
+    box-sizing:border-box;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    background-color:rgb(114, 0, 221);
+    border: 2px solid black;  
+
+}
+
+.shoes-image{
+    height:500px;
+    width: 500px;
+    object-fit: contain;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.filter {
+    display:flex;
+    flex-direction: row;
+    margin: 20px 0;
+    font-family: arial;
+    font-size: 32px;
+    /* left: 1258px;
+    top: 1015px;  */
+    position: fixed;
+    bottom:0px;
+    
+  }
+  
+  .filter span {
+  background-color: #A2FA9A;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 80px;
+  }
+  
+h1:hover{
+  color:purple;
+}
+
+h1:active{
+  color:purple;
+}
+
+  .filter span:hover {
+    cursor: pointer;
+    color: #A2FA9A;
+    background-color: purple;
+  }
+
+.ninetiesbutton.active{
+  color: #A2FA9A;
+  background-color: purple;
+}
+
+  .container-description{
+    width: 600px;
+    height: 200px;
+    background: red;
+    border-radius: 150px;
+    display:none;
+    
+  }
+.description{
+    color:#A2FA9A;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-right:40px;
+    padding:50px;
+}
+
+.sign{
+    margin-top:170px;
+    margin-right:160px;
+    transform: rotate(25deg);
+}
+
+  p{
+    color:black;
+    font-size: 24px; 
+  }
+
+  .shake:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+   }
+    
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+
+    @media screen and (max-width: 768px){
+      h1{
+        font-size:40px;
+      }
+    
+      .filter{
+        font-size:25px;
+      }
+  
+      .container{
+        grid-template-columns: 1fr;
+      }
+    }

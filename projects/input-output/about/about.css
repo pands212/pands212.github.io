@@ -1,0 +1,99 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../PPEditorialNew-UltralightItalic.otf);
+}
+
+html{
+    cursor: url(../images/cursor.png), auto;
+    height:100%;
+    font-family: myFirstFont;
+}
+
+body{
+    background-image:url("../images/background.jpeg");
+    background-color: lightcyan;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    justify-content: space-between;
+
+
+}
+
+.title{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+
+}
+.about{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right:20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: myFirstFont;
+    font-size:76px;
+    font-weight: 200;
+    color:#DC49FF;
+    margin:0;
+    
+}
+
+p{
+    font-family: myFirstFont;
+    color:#DC49FF;
+    font-size: 22px;
+
+}
+
+button{
+    font-family: myFirstFont;
+    background-color:#DC49FF;
+    font-size: 24px;
+    border-radius: 80;
+    justify-self: center;
+    align-self: start;
+    margin-top:20px;
+    color:white;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro{
+    font-size: 34px;
+    width: 900px;
+    border-image: url(../images/frame.gif);
+}
+
+.references{
+    font-size: 45px;
+    margin-bottom:0;
+}
+
+ul{
+    margin:none;
+    font-size: 30px;
+    list-style:none;
+    color:#DC49FF;
+
+}
+

@@ -56,6 +56,7 @@ function showShoes() {
     let shoesContainer = document.createElement("div");
     shoesContainer.classList.add("shoes-container");
     document.querySelector(".container").append(shoesContainer);
+    shoesContainer.classList.add("shake");
 
     var colors = ["#7200dd","#9E3939", "#F611A9", "#F06A57", "#7000FF", "#0080FF", "#F460FF", "#A81201", "#93D704", "#AAECEB", "#58D4F8", "#FF0056", "#FFFF01", "#028D00"];
     shoesContainer.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];

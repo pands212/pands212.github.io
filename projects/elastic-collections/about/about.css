@@ -1,0 +1,109 @@
+html{
+    font-family: arial;
+}
+
+body{
+    background-image: linear-gradient(#F06A57, #C05FD0);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    padding: 20px;
+    font-weight: normal;
+    font-size: 64px;
+    margin:0;
+    position:fixed;
+    color:#A2FA9A;
+    z-index:2;
+}
+
+h1:hover{
+  color:purple;
+}
+
+h1:active{
+  color:purple;
+}
+
+.description{
+ 
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(162, 250, 154, 0) 0%, #A2FA9A 100%);
+  border: 2px solid black;  
+  width:450px;
+  height: 600px;
+  margin: auto;
+  padding-top:15px;
+  z-index:0;
+  
+}
+
+ p{
+    color:black;
+    font-size: 32px;
+    margin-top:150px;
+    text-align: center;
+  
+  }
+
+
+.filter {
+    display:flex;
+    flex-direction: row;
+    margin: 20px 0;
+    font-family: arial;
+    font-size: 32px;
+    /* left: 1258px;
+    top: 1015px;  */
+    position: fixed;
+    bottom:0px;
+    
+  }
+  
+  .filter span {
+  background-color: #A2FA9A;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 80px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+
+  .filter span:hover {
+    cursor: pointer;
+    color: #A2FA9A;
+    background-color: purple;
+  }
+
+.ninetiesbutton.active{
+  color: #A2FA9A;
+  background-color: purple;
+}
+
+/* .container{
+  text-align: center;
+  left: 0;
+  right: 0;
+  
+} */
+
+@media screen and (max-width: 768px){
+  h1{
+    font-size:40px;
+  }
+
+  .filter{
+    font-size:25px;
+  }
+
+  p{
+    font-size:30px;
+  }
+}
+
